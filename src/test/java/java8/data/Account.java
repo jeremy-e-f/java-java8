@@ -1,6 +1,15 @@
 package java8.data;
 
 public class Account {
+	
+	public Account(){
+		
+	}
+	
+	public Account(Person owner, Integer balance){
+		this.owner= owner;
+		this.balance= balance;
+	}
 
     private Person owner;
     private Integer balance;
